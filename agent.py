@@ -164,7 +164,7 @@ class DDPGAgent(AgentBase):
         obj_critic = self.criterion(q_value, q_label)
         return obj_critic, q_value.mean()
 
-class PPOAgent(AgentBase):
+class AgentPPO(AgentBase):
     def __init__(self, net_dims: [int], state_dim: int, action_dim: int, gpu_id=0, args: Config = Config()) -> None:
         self.if_off_policy = False
         self.act_class = getattr(self, "act_class", ActorPPO)
