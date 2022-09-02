@@ -11,8 +11,8 @@
 ## TODO 
 - [ ] compelete details in run.py, config.py, env.py
 - [ ] compelete details in agent.py & net.py
-    - [ ] Traning and Testing in Gym basic envs
-    - [ ] *test simulation in TDW 
+- [ ] Traning and Testing in Gym basic envs
+- [ ] *test simulation in TDW 
 
 ## Reference:
 1. ElegentTL
